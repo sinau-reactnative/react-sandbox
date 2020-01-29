@@ -1,7 +1,14 @@
-import React from "react";
+import React, { Fragment } from "react";
+
+import Header from "../components/Header";
 
 const Setting = () => {
-  return <h1>Setting</h1>;
+  return (
+    <Fragment>
+      <Header />
+      <h1>Setting</h1>
+    </Fragment>
+  );
 };
 
 export default Setting;
