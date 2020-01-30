@@ -1,12 +1,13 @@
 import React, { Fragment } from "react";
 
 import Header from "../components/Header";
+import Counter from "../components/Home/Counter";
 
 const Home = () => {
   return (
     <Fragment>
       <Header />
-      <h1>Home</h1>
+      <Counter />
     </Fragment>
   );
 };
